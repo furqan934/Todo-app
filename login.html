@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <body class="login-page">
+        <div class="log-container">
+            <form id="login-form">
+            <h2>Login</h2>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter you email" required   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            title="Enter a valid email address like example@domain.com">
+            <label for="pasword">Password</label>
+            <input type="password" id="pasword" placeholder="Enter you Pasword" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" 
+            title="Password must be at least 8 characters and contain at least one number, one uppercase and one lowercase letter.">
+            <button class="login-page-btn" type="submit" >Login</button>
+            <div class="Register-link">Don't have an account? <a href="register.html">Register here</a></div>
+        </form>
+        </div>
+        <script src="./js/app.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>

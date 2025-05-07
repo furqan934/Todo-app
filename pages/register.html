@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body class="register-page">
+    <div class="reg-container" >
+        <form id="registration-form">
+        <h2>Creat an Account</h2>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" placeholder="Enter you Name" required   pattern="[A-Za-z\s]{3,}" title="Full Name should be at least 3 characters and contain only letters and spaces.">
+        <label for="phonenumber">Phone Number</label>
+        <input type="number" id="phonenumber" placeholder="Enter you Phone number" required pattern="[0-9]{13}" title="Phone number should be exactly 13 digits.">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter you email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+        title="Please enter a valid email address (e.g., user@example.com)">
+        <label for="pasword">Password</label>
+        <input type="password" id="pasword" placeholder="Enter you Pasword" required  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" 
+        title="Password must be at least 8 characters and contain at least one number, one uppercase and one lowercase letter.">
+        <button class="register-page-btn" type="submit">Register</button>
+        <div class="login-link">Have an Account? <a href="../login.html">Login here</a></div>
+    </form>
+    </div>
+
+    <script src="../js/register.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>
