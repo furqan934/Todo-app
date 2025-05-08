@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    
+}
+#head-welcome{
+    font-size: 40px;
+}
+#para-01{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.container{
+    margin: 100px 0 0 0;
+}
+.btn {
+    /* margin-top: 10px; */
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+.register-btn
+{
+     background-color: #007bff;
+     padding: 15px 10px;
+
+ }
+.login-btn
+ { 
+    background-color: #218835; 
+    padding: 15px 10px;
+}
+ .register-btn:hover{
+    background-color: #000dff;
+ }
+ .login-btn:hover{
+    background-color: darkgreen;
+ }
+
+ 
+
+ /* css for login page  */
+ .login-page{
+    background-color: #f4f4f4;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+ }
+ .log-container{
+    background-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 600px;
+    padding: 40px;
+    position: relative;
+    top: 90px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+ }
+ .reg-container,h2{
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+ }
+ label{
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    text-align: left;
+ }
+ input{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+ }
+ input:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgpa(0,123,255,0.5);
+ }
+ .login-page-btn{
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:#2d8821;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+ }
+ .login-page-btn:hover{
+
+    background-color: darkgreen;
+ }
+ .Register-link{
+    text-align: center;
+    margin-top: 15px;
+    background-color: white;
+ }
+
+
+ 
